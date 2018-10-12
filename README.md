@@ -23,7 +23,7 @@ output lib
 
 ## Use Example
 
-```bash
+```
 define('extensions/my-firebase-entension',
   ['require', '../libraries/firebase.js'],
   function(require) {
