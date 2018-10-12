@@ -9,7 +9,7 @@ To download Node.js visit https://nodejs.org/en/download/.
 
 ## Build Instructions
 
-install dependencies
+install webpack and dependencies
 > npm install
 
 add/remove modules you want in the library
