@@ -12,7 +12,7 @@ To download Node.js visit https://nodejs.org/en/download/.
 install webpack and dependencies
 > npm install
 
-add/remove modules you want in the library
+edit the index file to add/remove modules you want in the library
 > index.js
 
 compile
