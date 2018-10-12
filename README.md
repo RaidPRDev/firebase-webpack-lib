@@ -1,13 +1,11 @@
 # firebase-webpack-lib
-Bundles specific modules into a single library file.  This enables us to make the smallest possible library without having any modules that are not being used.
+We are using webpack to bundle out Firebase library. Bundles specific modules into a single library file.  This enables us to make the smallest possible library without having any modules that are not being used. 
 
 ## Prerequisites
 
 #### Node.js
 Before you can start, you need to have Node.js 8.0.0 or greater installed on your machine.
-
-#### Webpack
-You will also need webpack installed
+To download Node.js visit https://nodejs.org/en/download/.
 
 ## Build Instructions
 
