@@ -1,7 +1,7 @@
 # firebase-webpack-lib
 We are using webpack to bundle out Firebase library. Bundles specific modules into a single library file.  This enables us to make the smallest possible library without having any modules that are not being used. 
 
-	https://badge.fury.io/{{programming_language:js
+[![Build Status](py}}/{{project_name}}.svg)](https://badge.fury.io/{{programming_language:js)
 
 ## Prerequisites
 
