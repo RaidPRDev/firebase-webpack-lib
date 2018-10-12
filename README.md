@@ -28,10 +28,10 @@ define('extensions/my-firebase-entension',
   ['require', '../libraries/firebase.js'],
   function(require) {
 
-  var config": {
+  var config = {
       apiKey: "###########",
       authDomain: "###########.firebaseapp.com",
-      databaseURL: "https://"###########.firebaseio.com",
+      databaseURL: "https://###########.firebaseio.com",
       projectId: "###########",
       storageBucket: "###########.appspot.com",
       messagingSenderId: "###########"
