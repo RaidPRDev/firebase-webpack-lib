@@ -30,7 +30,7 @@ define('extensions/my-firebase-entension',
 
   initializeApp: function()
   {
-      var config = {
+      let config = {
           apiKey: "###########",
           authDomain: "###########.firebaseapp.com",
           databaseURL: "https://###########.firebaseio.com",
@@ -39,7 +39,7 @@ define('extensions/my-firebase-entension',
           messagingSenderId: "###########"
       }
 
-      firebaseSDK.firebase.initializeApp(this.config);
+      firebaseSDK.firebase.initializeApp(config);
 
       firebaseSDK.firebase.auth()
         .signInAnonymously()
