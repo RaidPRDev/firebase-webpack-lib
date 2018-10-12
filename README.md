@@ -28,25 +28,28 @@ define('extensions/my-firebase-entension',
   ['require', '../libraries/firebase.js'],
   function(require) {
 
-  var config = {
-      apiKey: "###########",
-      authDomain: "###########.firebaseapp.com",
-      databaseURL: "https://###########.firebaseio.com",
-      projectId: "###########",
-      storageBucket: "###########.appspot.com",
-      messagingSenderId: "###########"
+  initializeApp: function()
+  {
+      var config = {
+          apiKey: "###########",
+          authDomain: "###########.firebaseapp.com",
+          databaseURL: "https://###########.firebaseio.com",
+          projectId: "###########",
+          storageBucket: "###########.appspot.com",
+          messagingSenderId: "###########"
+      }
+
+      firebaseSDK.firebase.initializeApp(this.config);
+
+      firebaseSDK.firebase.auth()
+        .signInAnonymously()
+        .then(function(user)
+        {
+            // Anonymous User is signed in
+        })
+        .catch(function(error) {
+            console.warn("Error signing in:", error);
+        });
   }
-  
-  firebaseSDK.firebase.initializeApp(this.config);
-  
-  firebaseSDK.firebase.auth()
-    .signInAnonymously()
-    .then(function(user)
-    {
-        // Anonymous User is signed in
-    })
-    .catch(function(error) {
-        console.warn("Error signing in:", error);
-    });
-  
+});
 ```
